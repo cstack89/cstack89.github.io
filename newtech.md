@@ -4,8 +4,7 @@ title: New Tech
 permalink: /newtech/
 ---
 
-test
-<!--
+
 <div class="posts">
   {% for post in site.categories.newtech %}
     <article class="post">    
@@ -20,4 +19,4 @@ test
     </article>
   {% endfor %}
 </div>
--->
+
