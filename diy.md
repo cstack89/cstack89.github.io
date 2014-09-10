@@ -2,6 +2,8 @@
 layout: default
 ---
 
+test
+<!--
 <div class="posts">
   {% for post in site.categories.diy %}
     <article class="post">    
@@ -16,3 +18,4 @@ layout: default
     </article>
   {% endfor %}
 </div>
+-->
