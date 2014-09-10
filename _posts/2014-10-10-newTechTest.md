@@ -2,7 +2,7 @@
 layout: post
 title: Test Post
 categories:
-  -newTech
+  - newTech
 ---
 
 Test Post 
