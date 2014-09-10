@@ -4,22 +4,6 @@ title: DIY
 permalink: /diy/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself. 
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
-
-
-<!--
----
-layout: default
----
-
 
 <div class="posts">
   {% for post in site.categories.diy %}
@@ -35,4 +19,3 @@ layout: default
     </article>
   {% endfor %}
 </div>
--->
