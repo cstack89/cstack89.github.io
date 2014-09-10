@@ -1,9 +1,12 @@
 ---
 layout: default
+title: New Tech
+permalink: /newtech/
 ---
 
+
 <div class="posts">
-  {% for post in site.categories['newtech'] %}
+  {% for post in site.categories.newtech %}
     <article class="post">    
       
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
