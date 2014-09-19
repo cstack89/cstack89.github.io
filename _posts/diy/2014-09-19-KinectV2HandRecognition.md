@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Detecting Fingertips from Kinect for Windows V2 Depth Images
+title: Detecting Fingertips from Kinect V2 Depth Images
 categories:
   - diy
 tags:
