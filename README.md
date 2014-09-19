@@ -1,11 +1,15 @@
-Fork of Jekyll Now to get the Fledgling Maker site up and running. 
+#Fledgling Maker
 
+A quick and dirty blog site run by Chris Stack to document various DIY projects and other things that may be of interest to other nerdy people.
+
+
+The base of Fledgling Maker is a fork of Jekyll Now.
 
 
 **Jekyll** is a static site generator that's perfect for GitHub hosted blogs ([Jekyll Repository](https://github.com/jekyll/jekyll))
 
 
-Jekyll Now is even simpler then Jekyll because no setup is required. Just fork the repository here: https://github.com/barryclark/jekyll-now and follow the directions to get started.
+Jekyll Now is even simpler then Jekyll because no setup is required. Just fork the repository here:([Jekyll Now Repository]( https://github.com/barryclark/jekyll-now)) and follow the directions to get started.
 
 
 
