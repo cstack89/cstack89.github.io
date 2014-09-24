@@ -47,17 +47,30 @@
       </div>
     </div>
 
+    <div id="main" role="main" class="container" stle="margin: 1em auto 2em auto; text-align: left; width: 65em;">
+      {% for tag in site.tags %}
+        <ul style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 50 }}%; display:inline" >
+          <a href="/{{ tag | first | slugize }}/">
+            {{ tag | first }}
+          </a>
+        </ul>
+      {% endfor %}
+    </div>
+    <div id="main" role="main" class="container" stle="float: right; width: 44em; margin-left: 0.3em; margin-bottom: 5em;">
+      {{ content }}
+    </div>
+<!--
     <div id="main" role="main" class="container">
       {{ content }}
       {% for tag in site.tags %}
-    <ul style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 50 }}%; display:inline" >
-        <a href="/{{ tag | first | slugize }}/">
+        <ul style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 50 }}%; display:inline" >
+          <a href="/{{ tag | first | slugize }}/">
             {{ tag | first }}
-        </a>
-    </ul>
-{% endfor %}
+          </a>
+        </ul>
+      {% endfor %}
     </div>
-
+-->
     <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
