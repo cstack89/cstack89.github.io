@@ -55,7 +55,7 @@
       
       {% for tag in site.tags %}
     <ul style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 50 }}%">
-        <a href="/{{ tag | first | slugize }}/">
+        <a href="{{ tag | first | slugize }}">
             {{ tag | first }}
         </a>
     </ul>
