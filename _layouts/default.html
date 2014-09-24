@@ -54,11 +54,11 @@
       {{ content }}
       
       {% for tag in site.tags %}
-    <li style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 50 }}%">
+    <ul style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 50 }}%">
         <a href="/{{ tag | first | slugize }}/">
             {{ tag | first }}
         </a>
-    </li>
+    </ul>
 {% endfor %}
     </div>
 
