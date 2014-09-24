@@ -47,36 +47,23 @@
       </div>
     </div>
 
-    <div style="margin: 1em auto 2em auto; text-align: left; width: 65em;">
-      {% for tag in site.tags %}
-        <ul style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 50 }}%; "><!--display:inline" >-->
-          <a href="/{{ tag | first | slugize }}/">
-            {{ tag | first }}
-          </a>
-        </ul>
-      {% endfor %}
-    </div>
-    <div  style="float: right; width: 44em; margin-left: 0.3em; margin-bottom: 5em;">
-      {{ content }}
-    </div>
-<!--
     <div id="main" role="main" class="container">
       {{ content }}
       {% for tag in site.tags %}
-        <ul style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 50 }}%; display:inline" >
-          <a href="/{{ tag | first | slugize }}/">
+    <ul style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 50 }}%; display:inline" >
+        <a href="/{{ tag | first | slugize }}/">
             {{ tag | first }}
-          </a>
-        </ul>
-      {% endfor %}
+        </a>
+    </ul>
+{% endfor %}
     </div>
--->
-    <div style="border-top: 1px solid #ccc; font-size: 0.9em; padding: 0.3em; margin: 2em 0 3em 0em; clear: both;">
-      <!--<div class="container">
-        <footer class="footer"> -->
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
           {% include svg-icons.html %}
-        <!--</footer>
-      </div> -->
+        </footer>
+      </div>
     </div>
 
     {% include analytics.html %}
