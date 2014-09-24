@@ -47,12 +47,8 @@
       </div>
     </div>
 
-    
-            
     <div id="main" role="main" class="container">
-      
       {{ content }}
-      
       {% for tag in site.tags %}
     <ul style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 50 }}%">
         <a href="/{{ tag | first | slugize }}/">
