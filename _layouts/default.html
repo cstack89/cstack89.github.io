@@ -49,7 +49,7 @@
 
     <div style="margin: 1em auto 2em auto; text-align: left; width: 65em;">
       {% for tag in site.tags %}
-        <ul style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 50 }}%; display:inline" >
+        <ul style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 50 }}%; "><!--display:inline" >-->
           <a href="/{{ tag | first | slugize }}/">
             {{ tag | first }}
           </a>
